@@ -1,0 +1,15 @@
+[ignore]
+
+[include]
+.*/src/.*
+
+[untyped]
+.*/node_modules./*
+
+[libs]
+src/types
+
+[options]
+module.system=node
+module.system.node.resolve_dirname=src
+module.system.node.resolve_dirname=node_modules
